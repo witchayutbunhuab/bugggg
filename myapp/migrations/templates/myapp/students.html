@@ -1,0 +1,9 @@
+<h1>list of students</h1>
+<o1>
+{% for s in object_list %}
+    <li> 
+     <img> src="https://testingbot.com/free-online-tools/random-avatar/200?img=9{{s.id}}" alt="avatar"/>
+     {{ s.name }} - {{ s.dob }} - {{ s.email }} 
+    </li>
+{% endfor %}
+</o1>
